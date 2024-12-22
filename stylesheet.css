@@ -284,7 +284,7 @@ img {
     }
     .nvbr{
         transform: scaleY(0);
-        width: 30%;
+        width: auto;
         margin-left: 70%;
         height: auto;
         margin-top: 10%;
