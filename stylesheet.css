@@ -251,14 +251,32 @@ img {
     width: auto;
 }
 @media only screen and (max-device-width: 800px) {
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
     .header {
-        height: 50px;
+        height: 120px;
+        position: absolute;
+        width: 100%;
+        background-color: whitesmoke;
+        top: -25;
+        z-index: 1000;
+    }
+    .ytb {
+        padding-top: 150px;
+        height: 50%;
+    }
+    #ytb {
+        width: 90%;
+        height: 100%;
     }
     .buttonBurger #houdi{
         display: block;
-        height: 50px;
+        height: 70%;
         width: auto;
-        margin-top: 2%;
+        margin-top: 18%;
         border: 0px;
     }
 
@@ -268,8 +286,9 @@ img {
 
     .active .buttonBurger #croix {
         display: block;
-        height: 50px;
+        height: 70%;
         width: auto;
+        margin-top: 18%;
         border: 0px;
     }
     .active .buttonBurger #houdi {
@@ -284,8 +303,8 @@ img {
     }
     .nvbr{
         transform: scaleY(0);
-        width: 30%;
-        margin-left: 70%;
+        width: 35%;
+        margin-left: 65%;
         height: auto;
         margin-top: 10%;
         left: 0;
@@ -297,7 +316,39 @@ img {
     }
     #pngheader {
         margin: 2%;
-        height: 150%;
+        height: 80%;
+        padding-top: 4%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .golf {
+        width: 60%;
+        height: 20%;
+    }
+    .accro {
+        width: 60%;
+        height: 20%;
+        margin-left: 20%;
+    }
+    .fastfood {
+        margin-left: 20%;
+    }
+    .commentaires {
+        width: 60%;
+        height: 20%;
+        margin-left: 20%;
+    }
+    .imgcomm {
+        margin-left: 17%;
+    }
+    .golf img {
+        height: 10%;
+        width: auto;
+        margin-left: 30%;
     }
     @keyframes anim {
         0%{
