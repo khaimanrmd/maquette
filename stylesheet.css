@@ -256,6 +256,15 @@ img {
         padding: 0;
         height: 100%;
     }
+    p {
+        font-size: xx-large;
+    }
+    h3 {
+        font-size: xx-large;
+    }
+    h4 {
+        font-size: xx-large;
+    }
     .header {
         height: 120px;
         position: absolute;
@@ -325,6 +334,26 @@ img {
         flex-direction: column;
         text-align: center;
     }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 10%;
+        width: 80%;
+        margin-top: 10%;
+    }
+    .contacter {
+        width: 100%;
+    }
+    .billet {
+        width: 100%;
+    }
+    .dcommentaire {
+        width: 100%;
+    }
+    .blablaland {
+        width: 100%;
+    }
     .golf {
         width: 60%;
         height: 20%;
@@ -349,6 +378,14 @@ img {
         height: 10%;
         width: auto;
         margin-left: 30%;
+    }
+    .footer {
+        margin-top: 10%;
+        width: 100%;
+        height: auto;
+        margin-left: 3%;
+        display: flex;
+        flex-direction: row;
     }
     @keyframes anim {
         0%{
